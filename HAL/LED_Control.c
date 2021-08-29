@@ -11,7 +11,7 @@ void SW_ini()
     GPIO_PORTF_DIR_R |= 0X0E;
     GPIO_PORTF_DEN_R |= 0x1E;
 }
-
+{}
 void LedInit()
 {
      SYSCTL_RCGCGPIO_R |= 0x20;
